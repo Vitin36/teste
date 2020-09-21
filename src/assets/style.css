@@ -79,10 +79,12 @@
 
 .mktoFieldDescriptor, .mktoFieldWrap, .mktoField {
     width: 100%!important;
+    -webkit-appearance: none;
 }
 
 select.mktoField, option {
     color: #5F5F5F;
+    -webkit-appearance: none;
 }
 
 option {
@@ -101,6 +103,7 @@ option {
         height: 1em;
         line-height: 1em;
         font-size: 10px!important;
+        -webkit-appearance: none;
     }
 }
 
@@ -111,6 +114,7 @@ option {
         line-height: 1em;
         font-size: 10px!important;
         padding: 1.5em!important;
+        -webkit-appearance: none;
     }
 }
 
@@ -119,6 +123,7 @@ option {
     outline-color: #000000!important;
     outline-style: auto;
     outline-width: 1px;
+    -webkit-appearance: none;
 }
 
 input {
