@@ -5,7 +5,8 @@ export const StyledLink = styled(Link)`
     width: 100%;
     max-width: 432px;
     z-index: 100;
-    -webkit-appearance: none;
+    appearance: none!important;
+    opacity: 1;
 `
 
 export const StyledButton = styled.button`
@@ -23,10 +24,10 @@ export const StyledButton = styled.button`
     padding: 0.8em 1em;
     transition: ease-in 300ms;
     z-index: 100;
-    -webkit-appearance: none;
+    appearance: none!important;
+    opacity: 1;
 
     & :hover{
-        -webkit-appearance: none;
         border: ${({ secondary }) => `1px solid ${secondary ? '#ffffff' : '#34B5D9'}`};
         background-color: ${({ secondary }) => `${secondary ? '#ffffff' : '#45BBDE'}`};
         color: ${({ secondary }) => `${ secondary ? '#3E8DDD' : '#ffffff' }`};
@@ -36,7 +37,6 @@ export const StyledButton = styled.button`
     }
 
     & :focus{
-        -webkit-appearance: none;
         transform: translateY(-5px);
         border: ${({ secondary }) => `1px solid ${secondary ? '#ffffff' : '#34B5D9'}`};
         background-color: ${({ secondary }) => `${secondary ? '#ffffff' : '#45BBDE'}`};
@@ -46,7 +46,6 @@ export const StyledButton = styled.button`
     }
 
     & :active{
-        -webkit-appearance: none;
         transform: translateY(-5px);
         border: ${({ secondary }) => `1px solid ${secondary ? '#ffffff' : '#34B5D9'}`};
         background-color: ${({ secondary }) => `${secondary ? '#ffffff' : '#45BBDE'}`};
