@@ -105,7 +105,7 @@ option {
 }
 
 @media only screen and (max-width: 480px) {
-    .mktoForm input[type=url], .mktoForm input[type=text], .mktoForm input[type=date], .mktoForm input[type=tel], .mktoForm input[type=email], .mktoForm input[type=number]{
+    .mktoForm input[type=url], .mktoForm input[type=text], .mktoForm input[type=date], .mktoForm input[type=tel], .mktoForm input[type=email], .mktoForm input[type=number] {
         width: 100%;
         height: 1em;
         line-height: 1em;
@@ -115,9 +115,14 @@ option {
 }
 
 .mktoForm input[type=url]:focus, .mktoForm input[type=text]:focus, .mktoForm input[type=date]:focus, .mktoForm input[type=tel]:focus, .mktoForm input[type=email]:focus, .mktoForm input[type=number]:focus, .mktoForm textarea.mktoField:focus, .mktoForm select.mktoField:focus {
-    color: -internal-light-dark(black, white)!important;    
+    color: -internal-light-dark(black, white)!important;
     outline-color: #000000!important;
     outline-style: auto;
     outline-width: 1px;
 }
 
+input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
