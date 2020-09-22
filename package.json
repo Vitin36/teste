@@ -5,7 +5,7 @@
     "main": "src/index.jsx",
     "scripts": {
         "start": "webpack-dev-server --history-api-fallback",
-        "build": "webpack --config webpack.prod.config",
+        "build": "webpack --config webpack.config",
         "build-react": "react-scripts build",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
