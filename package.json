@@ -21,6 +21,7 @@
     "homepage": "https://github.com/bowe-td/lenovo-lp-dcg#readme",
     "devDependencies": {
         "@babel/core": "^7.11.6",
+        "@babel/parser": "^7.11.5",
         "@babel/polyfill": "^7.11.5",
         "@babel/preset-env": "^7.11.5",
         "@babel/preset-react": "^7.10.4",
