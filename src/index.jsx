@@ -6,6 +6,8 @@ import { IntlProvider } from 'react-intl'
 import ptMessages from './i18n/pt'
 import esMessages from './i18n/es'
 
+import "@babel/polyfill"
+
 const getPreferredLanguage = () => {
     const predefinedLanguages = ['pt', 'es']
     const userLanguage = navigator.language || navigator.userLanguage
