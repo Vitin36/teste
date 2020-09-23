@@ -121,7 +121,7 @@
     width: 100%!important;
 }
 
-select{
+select, input{
   -webkit-appearance:none;
 }
 
