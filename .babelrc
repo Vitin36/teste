@@ -1,12 +1,6 @@
 {
   "presets": [
-    [
-      "@babel/preset-env",
-      {
-        "useBuiltIns": "entry",
-        "browserslist": "> 0.25%, not dead"
-      }
-    ],
+    git "@babel/preset-env",
     "@babel/preset-react",
   ],
   "plugins": [
