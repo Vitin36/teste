@@ -25,6 +25,11 @@ export const ThankYouSection = styled.div`
     }
 `
 
+export const ThankYouSectionWrapper = styled.div`
+    width: 100%;
+    overflow: hidden;
+`
+
 
 export const HexagonosThankYou = styled.img`
     max-width: 400px;

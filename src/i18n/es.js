@@ -48,9 +48,9 @@ export default {
         'button.all': 'Quiero todo esto',
         'button.suport': 'Quiero esse soporte',
         'button.cotacao': 'Quero uma cotação',
-        'thankyou.thanks': 'Obrigado!',
+        'thankyou.thanks': 'Gracias!',
         'button.send': 'Enviar',
-        'thankyou.subtitle': 'Você está preste à revolucionar seu Data Center.',
-        'thankyou.message': 'Em breve, um de nossos consultores entrará em contato.\nJuntos vamos encontrar as melhores soluções para seus dados de negócio.\n\nAté mais!',
+        'thankyou.subtitle': 'Está a punto de revolucionar su centro de datos.',
+        'thankyou.message': 'Pronto, uno de nuestros consultores se pondrá en contacto con usted.\nJuntos, encontraremos las mejores soluciones para sus datos empresariales.\n\n ¡Hasta luego!',
     }
 }

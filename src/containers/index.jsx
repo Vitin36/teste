@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { useIntl, FormattedMessage } from 'react-intl'
-import { Hexagonos, PredioHexagonos, Container, Modal, StyledHeader, ThankYouSection, HexagonosThankYou, TitleThankYou, SubTitleThankYou, TextThankYou } from './styles'
+import { Hexagonos, PredioHexagonos, Container, Modal, StyledHeader, ThankYouSection, HexagonosThankYou, TitleThankYou, SubTitleThankYou, TextThankYou, ThankYouSectionWrapper } from './styles'
 import Button from 'components/button'
 import Section1 from 'containers/section1'
 import Section2 from 'containers/section2'
@@ -31,7 +31,7 @@ function App() {
     const interval = setInterval(() => {
         const label = document.getElementById("Lbllvo_isoptinemailsent")
         const checkBox = document.getElementById("lvo_isoptinemailsent")
-        if(label && checkBox){
+        if (label && checkBox) {
             clearInterval(interval)
             label.insertBefore(checkBox, label.firstChild)
         }
@@ -108,20 +108,24 @@ function App() {
 function ThankYou() {
 
     return (
-        <ThankYouSection>
-            <div>
-                <HexagonosThankYou src={hexagonos} alt="hexagonos" />
-                <TitleThankYou>
-                    <FormattedMessage id="thankyou.thanks" />
-                </TitleThankYou>
-                <SubTitleThankYou>
-                    <FormattedMessage id="thankyou.subtitle" />
-                </SubTitleThankYou>
-                <TextThankYou>
-                    <FormattedMessage id="thankyou.message" />
-                </TextThankYou>
-            </div>
-        </ThankYouSection>
+        <ThankYouSectionWrapper>
+            <ThankYouSection>
+                <div>
+                    <HexagonosThankYou src={hexagonos} alt="hexagonos" />
+                    <TitleThankYou>
+                        <FormattedMessage id="thankyou.thanks" />
+                    </TitleThankYou>
+                    <SubTitleThankYou>
+                        <FormattedMessage id="thankyou.subtitle" />
+                    </SubTitleThankYou>
+                    <TextThankYou>
+                        <FormattedMessage id="thankyou.message" />
+                    </TextThankYou>
+                </div>
+            </ThankYouSection>
+            <Section8 />
+        </ThankYouSectionWrapper>
+
     )
 }
 
