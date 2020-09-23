@@ -10,9 +10,26 @@ export const Section = styled.div`
     background-color: #FFFFFF;
     
     @media(max-width: 991px){ 
-        padding: 6em 2em;
+        padding: 6em 0.5em;
+        padding-bottom: 0;
     }
 `
+
+export const ButtonSection = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 6em 0;
+    background-color: #FFFFFF;
+    
+    @media(max-width: 991px){ 
+        padding: 0 2em;
+        padding-bottom: 6em;
+    }
+`
+
 
 export const Container = styled.div`
     ${({ marginTop }) => marginTop ? `margin-top: ${marginTop}px;` : ''}

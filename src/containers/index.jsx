@@ -76,7 +76,7 @@ function App() {
                             <Section7 />
                             <Section8 />
                             <Hexagonos src={hexagonos} alt="hexagonos" draggable="false" />
-                            <Button text={intl.formatMessage({ id: 'button.cotacao' })} fixed />
+                            <Button text={intl.formatMessage({ id: 'button.send' })} fixed />
                             <Modal isOpen={context} onClose={toggleModal} portal={true} >
                                 <div id="modal"></div>
                             </Modal>
