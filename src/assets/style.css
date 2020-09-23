@@ -131,9 +131,15 @@ select {
     background: url("./images/angle-arrow-down.svg");
     background-repeat:  no-repeat!important;
     background-size: 10px!important;
-    background-position: top 16px right 16px!important;
+    background-position: top 16px right 16px;
     background-color:  #ffffff!important;
     padding-right: 4px!important;
+}
+
+@media(max-width: 767px){
+    select {
+        background-position: top 13px right 11px;
+    }
 }
 
 select.mktoField, option {
