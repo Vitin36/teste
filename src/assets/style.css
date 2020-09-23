@@ -128,7 +128,12 @@ select, input{
 }
 
 select {
-    background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right #ffffff!important;
+    background: url("./images/angle-arrow-down.svg");
+    background-repeat:  no-repeat!important;
+    background-size: 10px!important;
+    background-position: top 16px right 16px!important;
+    background-color:  #ffffff!important;
+    padding-right: 4px!important;
 }
 
 select.mktoField, option {

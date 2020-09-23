@@ -29,9 +29,10 @@ export const Container = styled.div `
     align-items: center;
     z-index: 10;
 
-    @media(max-width: 2000px){ 
+    @media(max-width: 1650px){ 
         width: 90%;
     }
+
 
     @media(max-width: 991px){ 
         width: 100%;
