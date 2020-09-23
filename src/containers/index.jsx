@@ -28,6 +28,15 @@ function App() {
     const urlParams = new URLSearchParams(queryString);
     const sended = urlParams.get("aliId")
 
+    const interval = setInterval(() => {
+        const label = document.getElementById("Lbllvo_isoptinemailsent")
+        const checkBox = document.getElementById("lvo_isoptinemailsent")
+        if(label && checkBox){
+            clearInterval(interval)
+            label.insertBefore(checkBox, label.firstChild)
+        }
+    }, 1000)
+
     if (!sended) {
         const interval = setInterval(() => {
             const form = document.getElementById("mktoForm_2583")

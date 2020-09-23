@@ -161,35 +161,6 @@ option {
     font-family: gothamBook!important;
 }
 
-.mktoFormRow:nth-of-type(10) > .mktoFormCol {
-    display: flex!important;
-    visibility: visible!important;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: auto!important;
-}
-
-.mktoFormRow:nth-of-type(10) > .mktoFormCol > .mktoFieldWrap {
-    display: flex!important;
-    visibility: visible!important;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    width: auto!important;
-    max-width: 400px;
-}
-
-#Lbllvo_isoptinemailsent {
-    display: block!important;
-    visibility: visible!important;
-    font-family: gothamLight;
-    font-size: 10px;
-    line-height: 16px;
-    text-align: justify;
-    width: auto!important;
-}
-
 @media only screen and (max-width: 480px) {
     .mktoForm input[type=url], .mktoForm input[type=text], .mktoForm input[type=date], .mktoForm input[type=tel], .mktoForm input[type=email], .mktoForm input[type=number], .mktoForm textarea.mktoField, .mktoForm select.mktoField {
         width: 100%;
@@ -214,4 +185,46 @@ option {
     outline-color: #000000!important;
     outline-style: auto;
     outline-width: 1px;
+}
+
+.mktoFormRow:nth-of-type(10) > .mktoFormCol {
+    display: flex!important;
+    visibility: visible!important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: auto!important;
+}
+
+.mktoFormRow:nth-of-type(10) > .mktoFormCol > .mktoFieldWrap {
+    display: flex!important;
+    visibility: visible!important;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: auto!important;
+    max-width: 400px;
+}
+
+.mktoCheckboxList{
+    width: 0!important;
+    display: none!important;
+    visibility: hidden!important;
+}
+
+
+#Lbllvo_isoptinemailsent {
+    display: block!important;
+    visibility: visible!important;
+    font-family: gothamLight;
+    font-size: 10px;
+    line-height: 16px;
+    text-align: justify;
+    width: auto!important;
+}
+
+input[type="checkbox"]{
+    width: min-content!important;
+    margin-right: 6px!important;
+    margin-top: 2px!important;
 }
