@@ -11,7 +11,7 @@ module.exports = {
         ],
     },
 
-    mode: 'development',
+    mode: 'production',
 
     output: {
         path: path.resolve(__dirname, 'dist'),

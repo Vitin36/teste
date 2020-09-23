@@ -35,7 +35,7 @@ export const Container = styled.div`
     justify-content: flex-start;
     position: relative;
 
-    @media(max-width: 1366px){
+    @media(max-width: 2000px){
         width: ${({ width }) => `${width ? width : '90%'}`};
     }
 

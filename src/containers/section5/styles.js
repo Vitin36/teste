@@ -41,7 +41,7 @@ export const Container = styled.div`
     position: relative;
     z-index: 100;
 
-    @media(max-width: 1366px){ 
+    @media(max-width: 2000px){ 
         width: ${({ width }) => `${width ? width : '90%'}!important`};
     }
 

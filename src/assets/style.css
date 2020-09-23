@@ -121,6 +121,10 @@
     width: 100%!important;
 }
 
+select{
+  -webkit-appearance:none;
+}
+
 select.mktoField, option {
     color: #5F5F5F;
 }

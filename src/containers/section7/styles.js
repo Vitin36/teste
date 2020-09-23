@@ -27,7 +27,7 @@ export const Container = styled.div`
     position: relative;
     z-index: 10;
 
-    @media(max-width: 1366px){ 
+    @media(max-width: 2000px){ 
         width: 90%;
     }
 
