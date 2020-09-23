@@ -121,8 +121,14 @@
     width: 100%!important;
 }
 
-select, input{
-  -webkit-appearance:none;
+select, input{ 
+    -moz-appearance:none; /* Firefox */
+    -webkit-appearance:none; /* Safari and Chrome */
+    appearance:none;
+}
+
+select {
+    background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right #ffffff!important;
 }
 
 select.mktoField, option {
