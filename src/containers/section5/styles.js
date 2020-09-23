@@ -160,7 +160,7 @@ export const Divisor = styled.img`
     display: none;
     visibility: hidden;
 
-    @media(max-width: 1366px){
+    @media(max-width: 1500px){
         width: 100%;
         right: 60px;
     }

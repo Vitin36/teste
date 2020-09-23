@@ -42,7 +42,7 @@ function Section3() {
                         </ColumnText>
                     </TextColumn>
                     <CardColumn className="column">
-                        <ScrollMenu items={items1} />
+                        <ScrollMenu canOverflow={true} items={items1} />
                     </CardColumn>
                 </Row>
             </Container>

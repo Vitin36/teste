@@ -61,7 +61,7 @@ export const StyledButton = styled.button`
             visibility: visible;
             width: 100vw;
             position: fixed;
-            bottom: 0;
+            bottom: -2px;
     ` : ``}`}
     }
 `
