@@ -6,14 +6,14 @@ import { IntlProvider } from 'react-intl'
 import ptMessages from './i18n/pt'
 import esMessages from './i18n/es'
 
-const getPreferredLanguage = () => {
-    const predefinedLanguages = ['pt', 'es']
-    const userLanguage = navigator.language || navigator.userLanguage
-    const language = userLanguage.split('-')[0]
-    return predefinedLanguages.includes(language) ? language : predefinedLanguages[0]
-}
+// const getPreferredLanguage = () => {
+//     const predefinedLanguages = ['pt', 'es']
+//     const userLanguage = navigator.language || navigator.userLanguage
+//     const language = userLanguage.split('-')[0]
+//     return predefinedLanguages.includes(language) ? language : predefinedLanguages[0]
+// }
 
-const locale = getPreferredLanguage()
+const locale = 'pt'
 const messages = { ...ptMessages, ...esMessages }
 
 ReactDOM.render(
