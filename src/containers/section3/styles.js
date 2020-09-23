@@ -6,7 +6,7 @@ export const Section = styled.div`
     align-items: center;
     justify-content: center;
     position: relative;
-    padding: 6em 0;
+    padding: 8em 5em;
     background-color: #FFFFFF;
     
     @media(max-width: 991px){ 
