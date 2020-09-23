@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: gothamBold;
     src: url("./fonts/gotham/GothamBold.ttf") format("truetype");
 }
@@ -16,7 +16,7 @@
 @font-face {
     font-family: gothamLight;
     src: url("./fonts/gotham/GothamLight.ttf") format("truetype");
-}
+} */
 
 .mktoLabel {
     width: 25px!important;

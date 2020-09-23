@@ -1,12 +1,10 @@
 {
   "presets": [
     [
-      "@babel/env",
+      "@babel/preset-env",
       {
-        "targets": {
-          "chrome": "60",
-          "safari": "10"
-        }
+        "useBuiltIns": "entry",
+        "browserslist": "> 0.25%, not dead"
       }
     ],
     "@babel/preset-react",
